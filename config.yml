@@ -1,0 +1,19 @@
+extensions:
+  - .jpg
+  - .JPG
+  - .gif
+  - .GIF
+  - .png
+  - .PNG
+  - .jpeg
+  - .JPEG
+delay: 1
+usemongo: false
+rename: true
+minsize: 50000
+minwidth: 100
+minheight: 100
+directories:
+  log: ./dat/log/
+  image: ./dat/img/
+  temp: ./dat/tmp/
